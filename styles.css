@@ -1,0 +1,30 @@
+/* Background */
+body {
+  font-family: futura;
+  color: #ffffff;
+
+  
+  /* Gradient */
+  background: linear-gradient(214deg, #7be8d6, #a481dd, #dd81cd);
+  background-size: 600% 600%;
+  -webkit-animation: bgMove 60s ease infinite;
+  animation: bgMove 60s ease infinite;
+}
+/*Animation*/
+@-webkit-keyframes bgMove {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes bgMove { 
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+
+.h1-header{
+  margin: 0 auto;
+  width: 10%;
+  text-align: center;
+  margin-top: 15%;
+}
